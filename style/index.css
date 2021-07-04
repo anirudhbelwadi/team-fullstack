@@ -1,0 +1,194 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    ;
+}
+
+body {
+    background: url("../images/background/header_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text-xs-center {
+    text-align: center !important;
+}
+
+@media (min-width: 768px) {
+    .text-sm-left {
+        text-align: left !important;
+    }
+    .text-sm-right {
+        text-align: right !important;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(119, 119, 119);
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FFCB2D;
+}
+.navbar_resize{
+    height: 55px;
+    transition: 0.2s;
+}
+.navbar_noresize{
+    height: 70px;
+    transition: 0.2s;
+    background-color: transparent !important;
+}
+.nav-link{
+    font-size: 130%;
+}
+.navbar_logo_noresize{
+    height: 52px;
+    transition: 0.2s;
+}
+.navbar_logo_resize{
+    height: 45px;
+    transition: 0.2s;
+}
+.navbar_toggler_noresize{
+    margin-top: 0px;
+    transition: 0.2s;
+}
+.navbar_toggler_resize{
+    margin-top: -6px;
+    transition: 0.2s;
+}
+.header h1{
+    color: #FFCB2D;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.header h3{
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+}
+.header a{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: white 2px solid;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 130%;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.header a:hover{
+    background-color: black;
+    color: #FFCB2D;
+    transition: 0.4s;
+    font-size: 140%;
+}
+#bootcamp_choice{
+    top: 0;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1100;
+    width: 100%;
+    display: none;
+}
+.bootcamp_choice_cross_one{
+    position: fixed;
+    width: 50px;
+    height: 0px;
+    right: 15px;
+    top: 40px;
+    z-index: 1001;
+    border: 2px solid #FFCB2D;
+    transform: rotate(45deg);
+    transition: 0.2s;
+    display: none;
+}
+.bootcamp_choice_cross_two{
+    position: fixed;
+    width: 50px;
+    height: 0px;
+    right: 15px;
+    top: 40px;
+    z-index: 1001;
+    border: 2px solid #FFCB2D;
+    transform: rotate(-45deg);
+    transition: 0.2s;
+    display: none;
+}
+.bootcamp_choice_cross_one_hover{
+    width: 40px;
+    border: 2px solid red;
+    cursor: pointer;
+    right: 20px;
+    transition: 0.2s;
+}
+.bootcamp_choice_cross_two_hover{
+    width: 40px;
+    border: 2px solid red;
+    cursor: pointer;
+    right: 20px;
+    transition: 0.2s;
+}
+#bootcamp_choice h1{
+    color: #FFCB2D;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#bootcamp_choice a{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: white 2px solid;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline-block;
+    font-size: 120%;
+}
+#bootcamp_choice a:hover{
+    background-color: black;
+    color: #FFCB2D;
+    transition: 0.4s;
+    font-size: 130%;
+}
+.about_heading{
+    color: #FFCB2D;
+}
+
+footer #footer_start_journey{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: white 2px solid;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+footer #footer_start_journey:hover{
+    background-color: black;
+    color: #FFCB2D;
+    transition: 0.4s;
+    font-size: 110%;
+}
