@@ -73,7 +73,13 @@
         <div class="h-75 text-center text-white">
             <img src="./images/logo/logo.png" width="80" alt="">
             <h1 class="my-4" style="font-size: 250%;">Workshop to be revealed soon!</h1>
-            <p>Stay tuned to our page for more details.</p>
+            <p>Subscribe to get all the updates from us!</p>
+            <form id="subscribe_form" name="subscribe_form">
+                <input type="email" class="form-control mx-auto" style="max-width: 350px;" placeholder="Enter email" id="email"
+                    name="email" required>
+                <button type="submit" class="btn btn-primary mt-4"
+                    style="background-color: #FFCB2D; border: none; outline: none; color: black; font-weight: 600; letter-spacing: 1px;">Subscribe</button>
+            </form>
         </div>
     </header>
 
@@ -149,12 +155,21 @@
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbw6ZLqsG5sLblfp9UU1Ay00TIshZKn1hVEUhARTFjqBpJRN9i22EiO3mVM_KWDp62RPZQ/exec'
         const form = document.forms['contact_form']
+        const subscribe_scriptURL = 'https://script.google.com/macros/s/AKfycbyoajjW2aSPVtnSuN7r3ta866xhnMqbu8Ai3INXBR4Rdva1Q1eMc47KuzUO4qBjQYm-/exec'
+        const subscribe_form = document.forms['subscribe_form']
         form.addEventListener('submit', e => {
             e.preventDefault()
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => alert("Thank you for contacting! We will get back to you soon."))
                 .catch(error => console.error(error.message))
             document.getElementById("contact_form").reset();
+        });
+        subscribe_form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(subscribe_scriptURL, { method: 'POST', body: new FormData(subscribe_form) })
+                .then(response => alert("Thank you for subscribing! You have been added to the mailing list."))
+                .catch(error => console.error(error.message))
+            document.getElementById("subscribe_form").reset();
         });
     </script>
 </body>
