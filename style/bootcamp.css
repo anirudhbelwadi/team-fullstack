@@ -67,8 +67,12 @@ body {
   margin-top: -6px;
   transition: 0.2s;
 }
+.about_heading {
+  color: #ffcb2d;
+}
 
-footer #footer_start_journey {
+footer #footer_start_journey,
+#start_journey  {
   background-color: transparent;
   color: white;
   outline: none;
@@ -80,7 +84,8 @@ footer #footer_start_journey {
   cursor: pointer;
   transition: 0.4s;
 }
-footer #footer_start_journey:hover {
+footer #footer_start_journey:hover,
+#start_journey:hover {
   background-color: black;
   color: #ffcb2d;
   transition: 0.4s;
