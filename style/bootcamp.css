@@ -91,3 +91,19 @@ footer #footer_start_journey:hover,
   transition: 0.4s;
   font-size: 110%;
 }
+
+.glow_text {
+  -webkit-animation: glow 0.5s ease-in-out infinite alternate;
+  -moz-animation: glow 0.5s ease-in-out infinite alternate;
+  animation: glow 0.5s ease-in-out infinite alternate;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+@-webkit-keyframes glow {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #ffcb2d;
+  }
+}
