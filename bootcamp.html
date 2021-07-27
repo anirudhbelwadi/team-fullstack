@@ -546,7 +546,7 @@
         form.addEventListener('submit', e => {
             e.preventDefault()
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => alert("You have successfully registered for the workshop! Further details will be communicated through mail."))
+                .then(response => alert("You have successfully registered for the Bootcamp! Further details will be communicated through mail."))
                 .catch(error => console.error(error.message))
             document.getElementById("register_form").reset();
         });
