@@ -1,6 +1,6 @@
 $(window).scroll(function () {
     var scroll_amount = $(window).scrollTop();
-    if (scroll_amount > 100) {
+    if (scroll_amount > 50) {
         $(".navbar").addClass('navbar_resize');
         $(".navbar").removeClass('navbar_noresize');
         $(".navbar img").addClass('navbar_logo_resize');

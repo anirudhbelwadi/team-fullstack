@@ -83,13 +83,13 @@ footer #footer_start_journey,
   text-decoration: none;
   cursor: pointer;
   transition: 0.4s;
+  line-height: 60px;
 }
 footer #footer_start_journey:hover,
 #start_journey:hover {
   background-color: black;
   color: #ffcb2d;
   transition: 0.4s;
-  font-size: 110%;
 }
 
 .glow_text {
