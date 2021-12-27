@@ -18,6 +18,7 @@ body {
   .text-sm-left {
     text-align: left !important;
   }
+
   .text-sm-right {
     text-align: right !important;
   }
@@ -39,34 +40,51 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #ffcb2d;
 }
+
+.color-primary {
+  color: #ffcb2d;
+}
+
+span {
+  color: #ffcb2d;
+  font-size: 50px;
+}
+
 .navbar_resize {
   height: 55px;
   transition: 0.2s;
 }
+
 .navbar_noresize {
   height: 70px;
   transition: 0.2s;
   background-color: transparent !important;
 }
+
 .nav-link {
   font-size: 130%;
 }
+
 .navbar_logo_noresize {
   height: 52px;
   transition: 0.2s;
 }
+
 .navbar_logo_resize {
   height: 45px;
   transition: 0.2s;
 }
+
 .navbar_toggler_noresize {
   margin-top: 0px;
   transition: 0.2s;
 }
+
 .navbar_toggler_resize {
   margin-top: -6px;
   transition: 0.2s;
 }
+
 .header h1 {
   color: #ffcb2d;
   white-space: nowrap;
@@ -75,11 +93,13 @@ body {
   font-weight: 600;
   letter-spacing: 2px;
 }
+
 .header h3 {
   letter-spacing: 1.5px;
   word-spacing: 5px;
 }
-.header a {
+
+.custom_button {
   background-color: transparent;
   color: white;
   outline: none;
@@ -92,12 +112,15 @@ body {
   cursor: pointer;
   transition: 0.4s;
 }
-.header a:hover {
+
+.custom_button:hover {
   background-color: black;
   color: #ffcb2d;
   transition: 0.4s;
   font-size: 140%;
+  text-decoration: none;
 }
+
 #bootcamp_choice {
   top: 0;
   position: fixed;
@@ -107,6 +130,7 @@ body {
   width: 100%;
   display: none;
 }
+
 .bootcamp_choice_cross_one {
   position: fixed;
   width: 50px;
@@ -120,6 +144,7 @@ body {
   transition: 0.2s;
   display: none;
 }
+
 .bootcamp_choice_cross_two {
   position: fixed;
   width: 50px;
@@ -133,6 +158,7 @@ body {
   transition: 0.2s;
   display: none;
 }
+
 .bootcamp_choice_cross_one_hover {
   width: 40px;
   border: 2px solid red;
@@ -141,6 +167,7 @@ body {
   right: 20px;
   transition: 0.2s;
 }
+
 .bootcamp_choice_cross_two_hover {
   width: 40px;
   border: 2px solid red;
@@ -149,11 +176,13 @@ body {
   right: 20px;
   transition: 0.2s;
 }
+
 #bootcamp_choice h1 {
   color: #ffcb2d;
   font-weight: 600;
   letter-spacing: 1px;
 }
+
 #bootcamp_choice a {
   background-color: transparent;
   color: white;
@@ -168,12 +197,14 @@ body {
   display: inline-block;
   font-size: 120%;
 }
+
 #bootcamp_choice a:hover {
   background-color: black;
   color: #ffcb2d;
   transition: 0.4s;
   font-size: 130%;
 }
+
 .about_heading {
   color: #ffcb2d;
 }
@@ -190,9 +221,15 @@ footer #footer_start_journey {
   cursor: pointer;
   transition: 0.4s;
 }
+
 footer #footer_start_journey:hover {
   background-color: black;
   color: #ffcb2d;
   transition: 0.4s;
   font-size: 110%;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  width: 40px !important;
+  height: 35px !important;
 }

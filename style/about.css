@@ -3,8 +3,25 @@
 }
 
 body {
-    background-color: #070718;
-    min-height: 100vh;
+    background: url("../images/background/header_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text-xs-center {
+    text-align: center !important;
+}
+
+@media (min-width: 768px) {
+    .text-sm-left {
+        text-align: left !important;
+    }
+
+    .text-sm-right {
+        text-align: right !important;
+    }
 }
 
 ::-webkit-scrollbar {
@@ -33,18 +50,15 @@ span {
     font-size: 50px;
 }
 
-.text-xs-center {
-    text-align: center !important;
+.navbar_resize {
+    height: 55px;
+    transition: 0.2s;
 }
 
-@media (min-width: 768px) {
-    .text-sm-left {
-        text-align: left !important;
-    }
-
-    .text-sm-right {
-        text-align: right !important;
-    }
+.navbar_noresize {
+    height: 70px;
+    transition: 0.2s;
+    background-color: transparent !important;
 }
 
 .nav-link {
@@ -93,7 +107,6 @@ footer #footer_start_journey:hover {
     color: #ffcb2d;
     transition: 0.4s;
     font-size: 110%;
-    cursor: pointer;
 }
 
 .navbar-dark .navbar-toggler-icon {

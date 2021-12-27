@@ -18,6 +18,7 @@ body {
   .text-sm-left {
     text-align: left !important;
   }
+
   .text-sm-right {
     text-align: right !important;
   }
@@ -39,40 +40,48 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #ffcb2d;
 }
+
 .navbar_resize {
   height: 55px;
   transition: 0.2s;
 }
+
 .navbar_noresize {
   height: 70px;
   transition: 0.2s;
   background-color: transparent !important;
 }
+
 .nav-link {
   font-size: 130%;
 }
+
 .navbar_logo_noresize {
   height: 52px;
   transition: 0.2s;
 }
+
 .navbar_logo_resize {
   height: 45px;
   transition: 0.2s;
 }
+
 .navbar_toggler_noresize {
   margin-top: 0px;
   transition: 0.2s;
 }
+
 .navbar_toggler_resize {
   margin-top: -6px;
   transition: 0.2s;
 }
+
 .about_heading {
   color: #ffcb2d;
 }
 
 footer #footer_start_journey,
-#start_journey  {
+#start_journey {
   background-color: transparent;
   color: white;
   outline: none;
@@ -85,6 +94,7 @@ footer #footer_start_journey,
   transition: 0.4s;
   line-height: 60px;
 }
+
 footer #footer_start_journey:hover,
 #start_journey:hover {
   background-color: black;
@@ -99,11 +109,18 @@ footer #footer_start_journey:hover,
   letter-spacing: 2px;
   word-spacing: 3px;
 }
+
 @-webkit-keyframes glow {
   from {
     background-color: transparent;
   }
+
   to {
     background-color: #ffcb2d;
   }
+}
+
+.navbar-dark .navbar-toggler-icon {
+  width: 40px !important;
+  height: 35px !important;
 }

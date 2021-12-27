@@ -11196,3 +11196,8 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
+
+.navbar-dark .navbar-toggler-icon {
+    width: 40px !important;
+    height: 35px !important;
+}
