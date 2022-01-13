@@ -75,6 +75,10 @@ span {
     color: #ffcb2d;
 }
 
+#about, #team, #testimonials {
+    background-color: #070718;
+}
+
 footer #footer_start_journey {
     background-color: transparent;
     color: white;

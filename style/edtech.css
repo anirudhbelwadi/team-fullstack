@@ -3,11 +3,11 @@
 }
 
 body {
-  background: url("../images/background/header_background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #070718;
+}
+
+header, #testimonials, #register {
+  background-color: #070718;
 }
 
 .text-xs-center {
