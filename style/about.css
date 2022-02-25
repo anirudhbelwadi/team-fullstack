@@ -109,3 +109,8 @@ footer #footer_start_journey:hover {
     width: 40px !important;
     height: 35px !important;
 }
+
+/* 
+.team_photo {
+    filter: saturate(0);
+} */
